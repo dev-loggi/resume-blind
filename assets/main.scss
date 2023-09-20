@@ -88,6 +88,16 @@ h1, h2, h3, h4, h5, h6, b, p, li {
     text-align: start;
 }
 
+h1 {
+    font-size: 2.5rem;
+    // margin-bottom: 0.1rem;
+    font-weight: 400;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
 /* 각 섹션 제목 */
 h3 {
     text-align: center;

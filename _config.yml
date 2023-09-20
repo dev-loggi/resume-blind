@@ -14,16 +14,18 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: 조성록
-title: Android Developer
-email: jsl663663@gmail.com
-website: github.com/dev-loggi
+#name: 조성록
+name: 디자인과 사용자 경험을 강조하는
+title: 안드로이드 개발자
+#title: Android Developer
+#email: jsl663663@gmail.com
+#website: github.com/dev-loggi
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username: dev-loggi
+#github_username: dev-loggi
 # youtube_username: user-pk6no1ub6p
 # twitter_username: facespics
 # stackoverflow_username: "00000001"
@@ -39,13 +41,13 @@ github_username: dev-loggi
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: Blog
-  icon: fas fa-blog
-  url: https://jsl663.tistory.com
-- title: YouTube Link
-  icon: fab fa-youtube
-  url: https://www.youtube.com/channel/UCYPnZS7wsGgdaCM1GYAaKrg
+#additional_links:
+#- title: Blog
+#  icon: fas fa-blog
+#  url: https://jsl663.tistory.com
+#- title: YouTube Link
+#  icon: fab fa-youtube
+#  url: https://www.youtube.com/channel/UCYPnZS7wsGgdaCM1GYAaKrg
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -55,11 +57,9 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+#about_profile_image: images/profile.jpg
 about_content: |
-  안녕하세요. 디자인에 관심이 많은 안드로이드 개발자 조성록입니다<br/><br/>
-  
-  학부 시절 C#으로 [윈도우 게임](https://youtu.be/vx7aT_5YpIA)을 만들 때부터 디자인에 대한 남다른 관심을 보이며 **UI/UX 및 디자인 트렌드**의 높은 이해도를 갖게 되었습니다.<br/>
+  학부 시절 C#으로 윈도우 게임을 만들 때부터 디자인에 대한 남다른 관심을 보이며 **UI/UX 및 디자인 트렌드**의 높은 이해도를 갖게 되었습니다.<br/>
   이는 앱 개발에서도 이어져 **안드로이드 뷰 시스템에 대한 이해도**와 다양한 CustomView 활용 및 Animation/Transition, 유저의 터치 인터렉션, 그리고 공통 디자인 시스템 모듈화 등 **UI 개발 역량**을 꾸준히 증진해왔습니다.
   <br/><br/>
   
@@ -128,13 +128,13 @@ content:
         title: 퍼니버니
         caption: 2023.06 - 2023.07
         sub_title: Tech Lead, Android
-        additional_links:
-          - title: Github Link
-            icon: fab fa-github
-            url: https://github.com/KT-AIVLE-3rd-AI-Team10/funibuni-fe-android
-          - title: YouTube Link
-            icon: fab fa-youtube
-            url: https://youtu.be/N-wBxebZWTY
+#        additional_links:
+#          - title: Github Link
+#            icon: fab fa-github
+#            url: https://github.com/KT-AIVLE-3rd-AI-Team10/funibuni-fe-android
+#          - title: YouTube Link
+#            icon: fab fa-youtube
+#            url: https://youtu.be/N-wBxebZWTY
         quote: >
           AI 기반 대형생활폐기물 간편 배출 앱
         description: |
@@ -148,13 +148,13 @@ content:
         title: 동영상 Ctrl＋F
         caption: 2023.04 - 2023.06
         sub_title: Tech Lead, Frontend
-        additional_links:
-          - title: Github Link
-            icon: fab fa-github
-            url: https://github.com/Video-CtrlF/video-ctrlf-introduce
-          - title: YouTube Link
-            icon: fab fa-youtube
-            url: https://youtu.be/UvRD_n5bfaQ
+#        additional_links:
+#          - title: Github Link
+#            icon: fab fa-github
+#            url: https://github.com/Video-CtrlF/video-ctrlf-introduce
+#          - title: YouTube Link
+#            icon: fab fa-youtube
+#            url: https://youtu.be/UvRD_n5bfaQ
         quote: >
           AI 기반 유튜브 동영상 속 텍스트 검색 서비스 (Chrome Extensions)
         description: |
@@ -169,13 +169,13 @@ content:
         title: 뭐더라
         caption: 2021.11 - 2022.03
         sub_title: Android, Backend
-        additional_links:
-          - title: Github Link
-            icon: fab fa-github
-            url: https://github.com/dev-loggi/mwodeola-android
-          - title: YouTube Link
-            icon: fab fa-youtube
-            url: https://youtu.be/JI3wjMUU__s
+#        additional_links:
+#          - title: Github Link
+#            icon: fab fa-github
+#            url: https://github.com/dev-loggi/mwodeola-android
+#          - title: YouTube Link
+#            icon: fab fa-youtube
+#            url: https://youtu.be/JI3wjMUU__s
         quote: >
           웹사이트 및 어플 계정의 아이디/비밀번호 기록 관리 안드로이드 앱
         description: |
@@ -183,8 +183,8 @@ content:
           - 앱 서비스 개발 1인 프로젝트 (기획, 설계, 디자인, 보안, 앱, 서버 개발)
           - 회원 기능, 계정 아이디/비밀번호 저장, 앱 화면 잠금, 계정 비밀번호 확인 시 암호 인증(이중 잠금), 로그인 자동 완성 서비스(Android Autofillframework) 기능 개발
           - 다중 계정, SNS 아이디로 가입한 계정에 대한 별도 로직 및 DB 설계
-          - UI/UX 향상을 위해 각 계정마다 썸네일 아이콘 사용 및 [CustomIconView 개발](https://jsl663.tistory.com/43)
-          - 다양한 [커스텀뷰 및 Animation/Transition](https://jsl663.tistory.com/49) 을 활용하여 디자인 완성도 향상
+          - UI/UX 향상을 위해 각 계정마다 썸네일 아이콘 사용 및 **CustomIconView 개발**
+          - 다양한 **커스텀뷰 및 Animation/Transition** 을 활용하여 디자인 완성도 향상
 
   # Side Projects
   - title: Side Projects
@@ -197,13 +197,13 @@ content:
         sub_title: Android
 #        link: https://github.com/dev-loggi/kakaobus-clone
 #        link_text: Github Link
-        additional_links:
-          - title: Github Link
-            icon: fab fa-github
-            url: https://github.com/dev-loggi/kakaobus-clone
-          - title: YouTube Link
-            icon: fab fa-youtube
-            url: https://youtu.be/mzymEDLK_8I
+#        additional_links:
+#          - title: Github Link
+#            icon: fab fa-github
+#            url: https://github.com/dev-loggi/kakaobus-clone
+#          - title: YouTube Link
+#            icon: fab fa-youtube
+#            url: https://youtu.be/mzymEDLK_8I
         quote: >
           카카오버스 앱 일부 기능 및 화면 최대한 비슷하게 구현해보기
         description: |
@@ -218,13 +218,13 @@ content:
         sub_title: Android
 #        link: https://github.com/dev-loggi/watcha-clone
 #        link_text: Github Link
-        additional_links:
-          - title: Github Link
-            icon: fab fa-github
-            url: https://github.com/dev-loggi/watcha-clone
-          - title: YouTube Link
-            icon: fab fa-youtube
-            url: https://youtu.be/lfmCE_RQ7pY
+#        additional_links:
+#          - title: Github Link
+#            icon: fab fa-github
+#            url: https://github.com/dev-loggi/watcha-clone
+#          - title: YouTube Link
+#            icon: fab fa-youtube
+#            url: https://youtu.be/lfmCE_RQ7pY
         quote: >
           영화 OTT 서비스 WATCHA 앱 일부 기능 및 화면 최대한 비슷하게 구현해보기
         description: |
